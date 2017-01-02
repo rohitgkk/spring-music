@@ -19,6 +19,6 @@ public class ErrorController {
     @RequestMapping(value = "/throw")
     public void throwException() {
         logger.info("Forcing an exception to be thrown");
-        throw new NullPointerException("Forcing an exception to be thrown");
+        throw new NullPointerException("Forcing an exception that to thrown");
     }
 }
